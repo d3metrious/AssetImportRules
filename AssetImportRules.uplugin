@@ -1,0 +1,30 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Asset Import Rules",
+	"Description": "Applies per-folder import settings to assets as they are imported (e.g. UI texture settings for everything under /Game/UI/Icons). Configure in Project Settings > Plugins > Asset Import Rules.",
+	"Category": "Editor",
+	"CreatedBy": "Jimi Demetriou",
+	"CreatedByURL": "jimid.io",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "AssetImportRules",
+			"Type": "Editor",
+			"LoadingPhase": "PostEngineInit"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "Interchange",
+			"Enabled": true
+		}
+	]
+}
